@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color:rgb(255, 255, 255);
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Oswald", sans;
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 2.2rem;
+}
+
+h3 {
+    font-size: 1.35rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.PP {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://images.unsplash.com/photo-1472566316349-bce77aa2a778?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item {
+    padding: 0 30px 0 30px;
+    text-align: center;
+    width: 1000px;
+}
+
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+    display: inline-block;
+    line-height: 1.25rem;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;/*คำสั่งที่ไม่สามารถคลุมได้*/
+    border: 1px solid transparent;
+    padding: .75rem 1.25rem;
+    font-size:  1rem;
+    border-radius: .25rem;
+    transition: all .2s ease-in-out;
+    outline: none;
+}
+
+
+     
+@media (min-width: 992) {
+    .item {
+        width: 80%;
+    }
+}
+@media (min-width: 1200) {
+    .item {
+        width: 60%;
+    }
+}
+
+controls {
+    color: rgb(255, 255, 255);
+    background-color: rgb(138, 140, 141);
+    border-color: rgb(85, 85, 85);
+}
+
+
+
+body {
+    overflow-x: hidden;
+}
+.snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    z-index: 2;
+    pointer-events: none;
+}
